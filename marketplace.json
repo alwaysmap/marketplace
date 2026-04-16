@@ -6,7 +6,7 @@
     {
       "name": "jfm",
       "displayName": "Jobs for Me",
-      "version": "0.7.1",
+      "version": "0.8.0",
       "source": "https://github.com/alwaysmap/jobs4me/releases/latest/download/jobs-for-me.zip",
       "description": "An AI-powered job search agent that learns what roles you'd actually take, finds them, assesses fit, and prepares you for interviews.",
       "author": {
