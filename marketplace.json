@@ -25,7 +25,7 @@
     {
       "name": "tmb",
       "displayName": "Train My Brain",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "https://github.com/alwaysmap/train-my-brain/releases/latest/download/train-my-brain.zip",
       "description": "A learning curriculum builder that interviews you about your goal, designs a structured hands-on curriculum, and builds a folder with exercises, validation, and an optional Hugo site.",
       "author": {
