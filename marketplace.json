@@ -1,0 +1,46 @@
+{
+  "name": "alwaysmap",
+  "displayName": "alwaysmap",
+  "description": "Practical AI plugins for job searching and learning. Built by Dylan Thomas.",
+  "plugins": [
+    {
+      "name": "jfm",
+      "displayName": "Jobs for Me",
+      "version": "0.7.1",
+      "source": "https://github.com/alwaysmap/jobs4me/releases/latest/download/jobs-for-me.zip",
+      "description": "An AI-powered job search agent that learns what roles you'd actually take, finds them, assesses fit, and prepares you for interviews.",
+      "author": {
+        "name": "Dylan Thomas"
+      },
+      "repository": "https://github.com/alwaysmap/jobs4me",
+      "homepage": "https://jobs4me.org",
+      "license": "MIT",
+      "keywords": [
+        "job-search",
+        "career",
+        "recruiting",
+        "interview-prep"
+      ]
+    },
+    {
+      "name": "tmb",
+      "displayName": "Train My Brain",
+      "version": "0.1.0",
+      "source": "https://github.com/alwaysmap/train-my-brain/releases/latest/download/train-my-brain.zip",
+      "description": "A learning curriculum builder that interviews you about your goal, designs a structured hands-on curriculum, and builds a folder with exercises, validation, and an optional Hugo site.",
+      "author": {
+        "name": "Dylan Thomas"
+      },
+      "repository": "https://github.com/alwaysmap/train-my-brain",
+      "homepage": "https://trainmybrain.dev",
+      "license": "MIT",
+      "keywords": [
+        "learning",
+        "curriculum",
+        "study-plan",
+        "education",
+        "career"
+      ]
+    }
+  ]
+}

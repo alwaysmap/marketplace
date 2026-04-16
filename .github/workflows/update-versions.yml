@@ -1,0 +1,28 @@
+name: Update plugin version
+
+on:
+  repository_dispatch:
+    types: [plugin-released]
+  workflow_dispatch:
+    inputs:
+      plugin:
+        description: "Plugin name (e.g. jfm, tmb)"
+        required: true
+      version:
+        description: "Version without v prefix (e.g. 0.8.0)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update marketplace version
+        run: |
+          bash scripts/update-plugin-version.sh \
+            "${{ github.event.client_payload.plugin || inputs.plugin }}" \
+            "${{ github.event.client_payload.version || inputs.version }}"
