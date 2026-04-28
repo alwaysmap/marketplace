@@ -12,8 +12,8 @@
     {
       "name": "jfm",
       "source": {
-        "source": "github",
-        "repo": "alwaysmap/jobs4me",
+        "source": "url",
+        "url": "https://github.com/alwaysmap/jobs4me.git",
         "ref": "v0.8.1"
       },
       "description": "An AI-powered job search agent that learns what roles you'd actually take, finds them, assesses fit, and prepares you for interviews.",
@@ -34,8 +34,8 @@
     {
       "name": "tmb",
       "source": {
-        "source": "github",
-        "repo": "alwaysmap/train-my-brain",
+        "source": "url",
+        "url": "https://github.com/alwaysmap/train-my-brain.git",
         "ref": "v0.3.0"
       },
       "description": "A learning curriculum builder that interviews you about your goal, designs a structured hands-on curriculum, and builds a folder with exercises, validation, and an optional Hugo site.",
